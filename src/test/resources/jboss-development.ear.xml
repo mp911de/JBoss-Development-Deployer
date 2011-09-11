@@ -1,0 +1,5 @@
+<development>
+	<classpath id="ejbs-1.0.jar">C:/Workspace/project/ejbs/target/classes</classpath>
+	<classpath id="primary-source-1.0.jar">C:/Workspace/project/primary-source/target/classes</classpath>
+	<classpath id="test.har-1.0.har">C:/Workspace/project/test.har/target/classes</classpath>	
+</development>

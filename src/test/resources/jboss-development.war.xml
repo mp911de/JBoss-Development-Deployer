@@ -1,0 +1,5 @@
+<development>
+	<webapp-path>C:/Workspace/project/war/src/webapp</webapp-path>
+	<classpath>C:/Workspace/project/primary-source/target/classes</classpath>
+	<classpath>C:/Workspace/project/test.har/target/classes</classpath>	
+</development>
