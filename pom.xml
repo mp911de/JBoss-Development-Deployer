@@ -6,6 +6,19 @@
 	<name>JBoss Development Deployers</name>
 	<version>0.6</version>
 	<repositories>
+
+		<repository>
+			<releases>
+				<updatePolicy>never</updatePolicy>
+			</releases>
+			<snapshots>
+				<updatePolicy>never</updatePolicy>
+			</snapshots>
+			<id>jboss-public-repository-group-deprecated</id>
+			<name>JBoss Public Maven Repository Group</name>
+			<url>https://repository.jboss.org/nexus/content/repositories/deprecated/</url>
+		</repository>
+
 		<repository>
 			<releases>
 				<updatePolicy>never</updatePolicy>
@@ -18,8 +31,8 @@
 			<url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>
 		</repository>
 	</repositories>
-	<dependencies>
 
+	<dependencies>
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
@@ -114,15 +127,10 @@
 		</dependency>
 	</dependencies>
 
-
-
-
 	<organization>
 		<name>PALUCH.biz</name>
 		<url>http://www.paluch.biz</url>
 	</organization>
-
-
 
 	<build>
 		<plugins>
@@ -183,7 +191,6 @@
 										prefix="${project.artifactId}-${project.version}">
 										<include name="*.jar" />
 									</zipfileset>
-
 								</zip>
 							</target>
 						</configuration>
@@ -200,7 +207,6 @@
 					</dependency>
 				</dependencies>
 			</plugin>
-
 		</plugins>
 	</build>
 </project>
